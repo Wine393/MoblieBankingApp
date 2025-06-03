@@ -1,0 +1,21 @@
+// Main method for demonstration
+    public static void main(String[] args) {
+        // Create a Desktop object
+        Desktop myPC = new Desktop("Dell", "Intel i7", 16);
+        
+        // Display initial specs
+        System.out.println("Initial Specs:");
+        System.out.println("Brand: " + myPC.getBrand());
+        System.out.println("Processor: " + myPC.getProcessor());
+        System.out.println("RAM: " + myPC.getRamSize() + "GB\n");
+        
+        // Upgrade RAM by 8GB
+        myPC.upgradeRam(8);
+        
+        // Attempt invalid upgrade (negative value)
+        myPC.upgradeRam(-5);
+        
+        // Verify final RAM size
+        System.out.println("\nFinal RAM: " + myPC.getRamSize() + "GB");
+    }
+}
