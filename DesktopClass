@@ -1,0 +1,47 @@
+public class Desktop {
+    // Private instance variables
+    private String brand;
+    private String processor;
+    private int ramSize; // in GB
+
+    // Constructor to initialize Desktop object
+    public Desktop(String brand, String processor, int ramSize) {
+        this.brand = brand;
+        this.processor = processor;
+        this.ramSize = ramSize;
+    }
+
+    // Getter and Setter methods
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getProcessor() {
+        return processor;
+    }
+
+    public void setProcessor(String processor) {
+        this.processor = processor;
+    }
+
+    public int getRamSize() {
+        return ramSize;
+    }
+
+    public void setRamSize(int ramSize) {
+        this.ramSize = ramSize;
+    }
+
+    // Method to upgrade RAM
+    public void upgradeRam(int additionalRam) {
+        if (additionalRam > 0) {
+            ramSize += additionalRam;
+            System.out.println("RAM upgraded by " + additionalRam + "GB. New RAM: " + ramSize + "GB");
+        } else {
+            System.out.println("Invalid RAM value. Upgrade failed.");
+        }
+    }
