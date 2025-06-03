@@ -1,6 +1,22 @@
-# MoblieBankingApp
-This project is a simple Java application developed for academic purposes to demonstrate the concept of Encapsulation in Object-Oriented Programming (OOP). It showcases how private data members, public accessors, and internal validation can be used to protect and manage sensitive data, using a BankAccount simulation as the real-world context.
+Java Programming Exercises Repository
+Introduction
+Welcome to the Java Programming Exercises repository! This curated collection of Java exercises is designed for academic use, providing students and educators with practical examples to master core programming concepts. Each exercise focuses on essential Java principles through self-contained, real-world-inspired problems.
 
-The code is intended for educational presentations, classroom demonstrations, and to provide a beginner-level understanding of Java OOP principles. It is designed to be Eclipse-compatible and easy to run locally.
+Repository Structure
+java-programming-exercises/
+├── src/
+│   ├── oop-exercises/       # Object-Oriented Programming
+│   ├── data-structures/      # Collections & Algorithms
+│   ├── io-exercises/         # File Handling
+│   └── concurrency/          # Multithreading
+├── docs/                     # Exercise explanations
+├── solutions/                # Sample implementations
+└── tests/                    # JUnit test cases
 
-🔒 Focus: Encapsulation — data hiding, controlled access, and secure interaction with class members.
+Academic Focus
+
+- Concept-first approach with practical implementations
+- Solutions include detailed academic commentary
+- Scaffolded difficulty progression (beginner → advanced)
+
+Disclaimer: This repository contains sample code for educational purposes only. Solutions are intended as learning aids, not production-ready code. Always adhere to your institution's academic integrity policies when using these materials.
