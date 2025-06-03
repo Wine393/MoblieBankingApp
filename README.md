@@ -1,17 +1,5 @@
-Java Programming Exercises Repository
-Introduction
+#Introduction
 Welcome to the Java Programming Exercises repository! This curated collection of Java exercises is designed for academic use, providing students and educators with practical examples to master core programming concepts. Each exercise focuses on essential Java principles through self-contained, real-world-inspired problems.
-
-Repository Structure
-java-programming-exercises/
-├── src/
-│   ├── oop-exercises/       # Object-Oriented Programming
-│   ├── data-structures/      # Collections & Algorithms
-│   ├── io-exercises/         # File Handling
-│   └── concurrency/          # Multithreading
-├── docs/                     # Exercise explanations
-├── solutions/                # Sample implementations
-└── tests/                    # JUnit test cases
 
 Academic Focus
 
